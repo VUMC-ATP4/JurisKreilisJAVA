@@ -6,6 +6,13 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Mācāmies mainīgos");
 
+        String gaisma = "Zaļā";
+        System.out.println("Pieeju pie luksofora");
+        //ja gaisma vienada ar zala
+        //tad mēs varam iet
+
+
+
         //EN:Integer - LV:Vesels skaitlis
 
         int x = 5;
@@ -15,6 +22,9 @@ public class Main {
         double lowestTemperature = -20.4;
         float highestTemperature = 40.65512312F;
         System.out.println("Augstaka temp ir " + highestTemperature + "zemaka temp ir " + lowestTemperature);
+        String teikums = String.format("Augstākā temperatūra ir %1S.2f Zemākā temperatūra ir %2Ss. Zemāka temp %2$s. Augstaka Temo %1$.4f",highestTemperature,lowestTemperature);
+
+        System.out.println(teikums);
 
 
         System.out.println("X ir vienāds ar:");
@@ -90,6 +100,10 @@ public class Main {
         System.out.println("dalijums" + dalijums);
         System.out.println("reizinajums" + reizinajums);
         System.out.println("atlikums" + atlikums);
+
+        String name = "Juris" + " " +  starpiba ;
+        System.out.println(name);
+
 
     }
 
